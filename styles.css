@@ -19,6 +19,7 @@ header{
     top: 0;
     width: 100%;
     background-color: var(--color1);
+    z-index: 1;
 }
 #header-logo{
     margin: 2rem;
@@ -184,6 +185,7 @@ main{
 {
     scale: 1.025;
     transition: 0.5s;
+    z-index: 0;
 }
 
 /**** DELIVERY ****/
@@ -224,6 +226,31 @@ footer{
     width: 100%;
     background-color: var(--color1);
 }
+.info-box{
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+#info-text{
+    font-size: 1.5rem;
+    margin: 0;
+}
+#info-text p{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: white;
+}
+
 
 /*** QUERIES ***/
 @media (max-width: 800px){
