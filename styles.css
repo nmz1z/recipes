@@ -65,6 +65,14 @@ header{
     color: white;
     text-decoration: none;
 }
+nav li:hover{
+    cursor: pointer;
+    color: black;
+
+}
+.nav-link:hover{
+    color: black;
+}
 
 /***** MAIN *****/
 main{
@@ -247,7 +255,7 @@ a{
 a:visited{
     color: black;
 }
-a:hover{
+footer a:hover{
     color: white;
 }
 
