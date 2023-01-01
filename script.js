@@ -1,7 +1,7 @@
-let navAbout = document.getElementById("nav-about");
-let navProducts = document.getElementById("nav-products");
-let navDelivery = document.getElementById("nav-delivery");
+let navLearn = document.getElementById("nav-learn");
+let navRecipes = document.getElementById("nav-recipes");
+let navDelivery = document.getElementById("nav-about-us");
 
-navAbout.addEventListener('click', () => {document.getElementById("about-us").scrollIntoView({block: "center"})});
-navProducts.addEventListener('click', () => {document.getElementById("products").scrollIntoView({block: "center"})});
-navDelivery.addEventListener('click', () => {document.getElementById("delivery").scrollIntoView({block: "center"})});
+navLearn.addEventListener('click', () => {document.getElementById("learn").scrollIntoView({block: "center"})});
+navRecipes.addEventListener('click', () => {document.getElementById("recipes").scrollIntoView({block: "center"})});
+navDelivery.addEventListener('click', () => {document.getElementById("about-us").scrollIntoView({block: "center"})});
