@@ -1,1 +1,1 @@
-live preview: https://nmz1z.github.io/ramen-page/
+[preview](https://nmz1z.github.io/recipes/)
